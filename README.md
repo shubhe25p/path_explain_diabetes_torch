@@ -97,7 +97,7 @@ fig, axs = scatter_plot(numpy_attributions,
 ![Interaction: Obesity and Gender](obe-gen.JPG)
 
 
-The model used to generate the above interactions is a two layer neural network trained on the Diabetes Dataset. To learn more about this particular model and the experimental setup, see [the notebook used to train and explain the model](https://github.com/suinleelab/path_explain/blob/master/examples/tabular/heart_disease/attributions.ipynb).
+The model used to generate the above interactions is a two layer neural network trained on the Diabetes Dataset. To learn more about this particular model and the experimental setup, see [the notebook used to train and explain the model](https://github.com/shubhe25p/path_explain_diabetes_torch/blob/master/path_explain_torch_diabetes.ipynb).
 
 
 
