@@ -7,20 +7,7 @@ A repository used for explaining feature importances and feature interactions in
 
 This repository contains tools to interpret and explain machine learning models using [Integrated Gradients](https://arxiv.org/abs/1703.01365) and [Expected Gradients](https://arxiv.org/abs/1906.10670). In addition, it contains code to explain _interactions_ in deep networks using Integrated Hessians and Expected Hessians - methods that the authors introduced in their most recent paper: ["Explaining Explanations: Axiomatic Feature Interactions for Deep Networks"](https://www.jmlr.org/papers/v22/20-1223.html).
 
-```
-@article{janizek2020explaining,
-  author  = {Joseph D. Janizek and Pascal Sturmfels and Su-In Lee},
-  title   = {Explaining Explanations: Axiomatic Feature Interactions for Deep Networks},
-  journal = {Journal of Machine Learning Research},
-  year    = {2021},
-  volume  = {22},
-  number  = {104},
-  pages   = {1-54},
-  url     = {http://jmlr.org/papers/v22/20-1223.html}
-}
-```
-
-The Pytorch implementation for path-explain can be found in `path_explain/explainer` directory in the offcial [repository](https://github.com/suinleelab/path_explain) which only provides example on tensorflow models thus this is useful for those who primarily work with pytorch. 
+The Pytorch implementation for path-explain can be found in `path_explain/explainer` directory in the offcial [repository](https://github.com/suinleelab/path_explain). They only provide examples on tensorflow models thus this is useful for those who primarily work with pytorch. 
 
 **CAVEAT : PIP INSTALLATION OF PATH_EXPLAIN DOES NOT INCLUDE PYTORCH IMPLEMENTATION OF PATH-EXPLAIN.**
 
